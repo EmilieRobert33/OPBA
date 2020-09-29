@@ -1,0 +1,8 @@
+D:\projetBagage\OPBA\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\projetBagage\OPBA\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\projetBagage\OPBA\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\projetBagage\OPBA\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\projetBagage\OPBA\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\projetBagage\OPBA\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\projetBagage\OPBA\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\projetBagage\OPBA\Models\obj\Debug\netcoreapp3.1\Models.pdb
