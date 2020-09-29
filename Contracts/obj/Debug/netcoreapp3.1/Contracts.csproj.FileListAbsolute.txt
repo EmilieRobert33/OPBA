@@ -6,3 +6,4 @@ D:\projetBagage\OPBA\Contracts\bin\Debug\netcoreapp3.1\Contracts.dll
 D:\projetBagage\OPBA\Contracts\bin\Debug\netcoreapp3.1\Contracts.pdb
 D:\projetBagage\OPBA\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
 D:\projetBagage\OPBA\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
+D:\projetBagage\OPBA\Contracts\obj\Debug\netcoreapp3.1\Contracts.csprojAssemblyReference.cache

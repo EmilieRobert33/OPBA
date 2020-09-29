@@ -1,0 +1,11 @@
+D:\projetBagage\OPBA\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\projetBagage\OPBA\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\projetBagage\OPBA\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+D:\projetBagage\OPBA\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+D:\projetBagage\OPBA\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\projetBagage\OPBA\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

@@ -1,6 +1,9 @@
 ﻿using Contracts;
+using Entities;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -37,6 +40,13 @@ namespace Api_OPBA.Extensions
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();
+        }
+
+        //Connexion base de donnée sur le serveur 
+        public static void ConfigureSqlServerContext(this IServiceCollection services, IConfiguration config)
+        {
+            var connectionString = config["sqlserverconnection:connectionString"];
+            services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(connectionString));
         }
     }
 }

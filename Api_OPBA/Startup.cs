@@ -34,6 +34,7 @@ namespace Api_OPBA
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureSqlServerContext(Configuration);
             
             services.AddControllers();
         }
