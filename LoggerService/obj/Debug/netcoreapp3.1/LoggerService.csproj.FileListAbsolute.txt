@@ -10,3 +10,5 @@ D:\projetBagage\OPBA\LoggerService\bin\Debug\netcoreapp3.1\Contracts.pdb
 D:\projetBagage\OPBA\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
 D:\projetBagage\OPBA\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
 D:\projetBagage\OPBA\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
+D:\projetBagage\OPBA\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+D:\projetBagage\OPBA\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb

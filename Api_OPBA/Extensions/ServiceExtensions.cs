@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -54,6 +55,32 @@ namespace Api_OPBA.Extensions
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
+
+        //SWAGGER - documentation for th api
+        public static void ConfigureSwagger(this IServiceCollection services)
+        {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "OPBA Api",
+                    Version = "V1",
+                    Description = "An API for BirdsWatchers...",
+                    TermsOfService = new Uri("https://digitalcorvax.fr/mentions"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Emilie ROBERT",
+                        Email = "John.Walkner@gmail.com",
+                        Url = new Uri("https://www.linkedin.com/in/emilie-robert-97a52a177/")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "OPBA Api by DigitalCorvax",
+                        Url = new Uri("https://digitalcorvax.fr")
+                    }
+                });
+            });
         }
     }
 }

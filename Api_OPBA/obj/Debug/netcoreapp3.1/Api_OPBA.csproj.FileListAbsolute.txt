@@ -68,3 +68,10 @@ D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\projetBagage\OPBA\Api_OPBA\obj\Debug\netcoreapp3.1\Api_OPBA.csproj.CoreCompileInputs.cache
 D:\projetBagage\OPBA\Api_OPBA\obj\Debug\netcoreapp3.1\Api_OPBA.MvcApplicationPartsAssemblyInfo.cache
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Repository.dll
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\projetBagage\OPBA\Api_OPBA\bin\Debug\netcoreapp3.1\Repository.pdb
+D:\projetBagage\OPBA\Api_OPBA\obj\Debug\netcoreapp3.1\Api_OPBA.MvcApplicationPartsAssemblyInfo.cs

@@ -37,6 +37,7 @@ namespace Api_OPBA
             services.ConfigureLoggerService();
             services.ConfigureSqlServerContext(Configuration);
             services.ConfigureRepositoryWrapper();
+            services.ConfigureSwagger();
             
             services.AddControllers();
         }
@@ -54,6 +55,13 @@ namespace Api_OPBA
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "OPBA API V1");
+            });
 
             // for Linux deployment
             app.UseForwardedHeaders(new ForwardedHeadersOptions
