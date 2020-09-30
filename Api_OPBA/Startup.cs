@@ -31,10 +31,12 @@ namespace Api_OPBA
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Extensions folder
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureSqlServerContext(Configuration);
+            services.ConfigureRepositoryWrapper();
             
             services.AddControllers();
         }
